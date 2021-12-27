@@ -1,0 +1,35 @@
+<!--
+    *Tüm kutulara 300 px genişlik ve yükseklik verin.
+    *Tüm kutulara border verin.
+    *Box #1: kırmızı, box #2: blue, box #3: turuncu arkaplan renklerini veriniz.
+    *tüm kutuları yanyana getirin.
+    *sayfa başlığının yüksekliğini 150px ve arkaplan rengini ise mavi yapınız.
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        .kutu{
+            width: 300px;
+            height: 300px;
+            border: 1px solid blue;
+            display: inline-block;
+        }
+        .kirmizi{
+            background-color: red;
+        }
+        .mavi{
+            background-color: blue;
+        }
+        .turuncu{
+            background-color: orange;
+        }
+    </style>
+</head>
+<body>
+    <div id="header">Başlık </div>
+    <div id="kutu1" class="kutu kirmizi">Kutu 1</div>
+    <div id="kutu2" class="kutu mavi">Kutu 2</div>
+    <div id="kutu3" class="kutu turuncu">Kutu 3</div>
+</body>
+</html>
