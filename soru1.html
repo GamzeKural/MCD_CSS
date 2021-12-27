@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--
+        1-Sayfa başlığını ortalayıp font büyüklüğünü 16px yapınız.
+        2-Tüm liste elemanlarının üstünü çizin ve zemin rengini "#EBE645 yapınız."(internal-external)
+        3-Sadece ilk 3 eelemanın üstünü çizin ve zemin rengini "#344CB7" yapınız.(inline css)
+        4-Tüm liste elemanlarının liste işaretini kaldırınız.(liste-style-type)
+    -->
+     <!--ilgili selectörün içindeki metinin üstünü çizer.text-decoration:line-through-->
+    <style>
+        h3 {
+            text-align:center;
+            font-size: 16px;
+        }
+       
+        li {
+            text-decoration:line-through;
+            background-color: #EBE645;
+        }
+        
+        ul {
+            list-style: none;
+        }
+
+    </style>
+</head>
+<body>
+    <h3>Web Geliştirme Yol Haritası</h3>
+<ul>
+    <li><input type="checkbox" checked>Html öğren</li>
+    <li><input type="checkbox" checked>CSS öğren</li>
+    <li><input type="checkbox" checked>Javascript öğren</li>
+    <li style="text-decoration: none;background-color: #344CB7;"><input type="checkbox">Backend dili öğren</li>
+    <li style="text-decoration: none;background-color: #344CB7;"><input type="checkbox">Angular/React Öğren</li>
+</ul>
+</body>
+</html>
