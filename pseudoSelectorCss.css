@@ -1,0 +1,82 @@
+/*pseude element*/
+/*first line etiketin ilk satırını alır ve oradaki özellikleri uygular.*/
+p::first-line{
+    color:pink;
+}
+
+/*sınıfın etiketi hakkinda sınıfının özelliğini değiştirmek için.*/
+p.hakkinda::first-line{
+    color: turquoise;
+}
+
+/*p etiketinin ilk harfini değiştirmek için*/
+p::first-letter{
+    font-size: 36px;
+    color: fuchsia;
+}
+
+/*paragraf sonrası içerik bilgisi*/
+p::after{
+    content: "alt içerik";
+    font-size: 24px;
+    color: goldenrod;
+}
+
+/*paragraf öncesi içerik için*/
+p.hakkinda::before{
+    content: "üst içerik";
+    font-size: 16px;
+    color: mediumslateblue;
+    display: block;
+}
+
+/*pseudo class*/
+/*listenin ilk elemanı arka plan rengini değiştirir.*/
+ul li:first-child{
+    background-color:mediumslateblue;
+}
+
+/*listenin n. elemanı için*/
+ul li:nth-child(3){
+    background-color: springgreen;
+}
+
+/*son elemanın css özelliğini değiştirmek için*/
+ul li:last-child{
+    background-color: thistle;
+}
+
+/*listenin çift sıradaki elemanlarına müdehale için*/
+ul li:nth-of-type(even){
+    color: red;
+}
+
+ul li:nth-of-type(odd){
+    color:white;
+}
+
+a:link{
+    color: yellow;
+}
+
+a:visited{
+    color: red;
+}
+
+/*a etiketinin üzerine gelince hover kodu çalışır*/
+a:hover{
+    color: rgb(0,0,7);
+}
+
+/*a etiketine tıklanınca çıkar*/
+a:active{
+    color:deeppink;
+}
+
+span{
+    display: none;
+} 
+
+div:hover span{
+    display:inline;
+}
