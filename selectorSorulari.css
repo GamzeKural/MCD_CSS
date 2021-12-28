@@ -48,7 +48,7 @@ ul li{
 }
 
 /* active sınıfına sahip tüm elemanlara gold arkaplan ekleyin..*/
-.active{
+ul>.active{
     background-color: gold;
 }
 
@@ -116,6 +116,6 @@ input[type="submit"]:hover{
 }
 
 /*input kutularından type i submit olayanların focus olayı gerçekleştiğinde arkaplan renklerini lightgoldenrodyellow yapın. */
-input[type="submit"]:focus{
+input:not(input[type="submit"]):focus{
     background-color: lightgoldenrodyellow;
 }
