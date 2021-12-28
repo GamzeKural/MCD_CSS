@@ -42,7 +42,7 @@ div>p{
 }
 
 /*Tüm liste elemanlarına gray border ve margin-top:2px ekleyin.*/
-*{
+ul li{
     border: 1px solid gray;
     margin-top: 2px;
 }
