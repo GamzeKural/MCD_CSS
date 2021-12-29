@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        /*kutuların sağa yada sola yaslanması için
+        float:left;sol
+        float:right;sağ*/
+        .box{
+            width: 170px;
+            height: 170px;
+            float: left;
+        }
+
+        #first{
+            background-color: red;
+        }
+
+        #second{
+            background-color: green;
+        }
+
+        #third{
+            background-color: blue;
+        }
+
+        .kapsam{
+            background-color: chartreuse;
+            overflow: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="kapsam">
+        <div id="first" class="box">kutu1</div>
+        <div id="second" class="box">kutu2</div>
+        <div id="third" class="box">kutu3</div>
+    </div>
+</body>
+</html>
