@@ -1,0 +1,28 @@
+table{
+    border: 1px solid grey;
+    display: table;
+    text-indent: initial;
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+}
+.table_green th{
+    background-color: green;
+}
+.table_blue th{
+    background-color: blue;
+}
+th{
+    border: 1px solid grey;
+    color: white;
+}
+tr:nth-child(2n+1){
+    background-color: rgb(187, 182, 182);
+
+}
+tr:hover{
+    background-color: honeydew;
+}
+td{
+    border: 1px solid grey;
+}
