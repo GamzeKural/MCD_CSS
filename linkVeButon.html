@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+        integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <style>
+        
+        .btn {
+            display: inline-block;
+            text-decoration: none;
+            font-size: 24px;
+            padding: 12px 30px;
+
+        }
+
+        .birinci {
+            background-color: #007bff;
+            color: white;
+            /*cursor varsayılan olması için initial kullanırız.*/
+            cursor: initial;
+        }
+
+        .birinci:hover {
+            opacity: 0.7;
+        }
+
+        .ikinci {
+            background-color: #6c757d;
+            color: white;
+        }
+
+        .ikinci:hover {
+            opacity: 0.7;
+        }
+
+        .success {
+            background-color: #28a745;
+            color: white;
+        }
+
+        .success:hover {
+            opacity: 0.7;
+        }
+
+        .danger {
+            background-color: #dc3545;
+            color: white;
+        }
+
+        .danger:hover {
+            opacity: 0.7;
+        }
+
+        .warning {
+            background-color: #ffc107;
+            color: white;
+        }
+
+        .warning:hover {
+            opacity: 0.7;
+        }
+
+        .btn-xs {
+            padding: 8px 15px;
+            size: 0.5em;
+        }
+
+        .btn-sm {
+            padding: 10px 22px;
+            size: 0.16px;
+        }
+
+        .btn-md {
+            padding: 12px 26px;
+            size: 150%;
+        }
+
+        .btn-lg {
+            padding: 16px 30px;
+            size: 32px;
+        }
+
+        .btn-bg {
+            padding: 20px 35px;
+            size: 40px;
+        }
+
+        .test {
+            box-sizing: border-box;
+            width: 1300px;
+            height: 16px;
+        }
+
+        .radius {
+            border-radius: 50%;
+        }
+        .warning-outline{
+            background-color: white;
+            color: #ffc107;
+            border: 1px solid #ffc107;
+            transition: 2s;
+        }
+        .warning-outline:hover{
+            color:white ;
+            background-color: #ffc107;
+            border: 1px solid #ffc107;
+        }
+    </style>
+</head>
+
+<body>
+    <a href="#" class="btn warning-outline">
+        <i class="fas fa-home"></i>Warning</a>
+        <br>
+        <hr>
+    <!--ikinci sınıf eklemek istersem boşluk ikinci sınıf adı-->
+    <div class="test">
+        <a href="#" class="btn birinci">Birinci Buton</a>
+        <a href="#" class="btn ikinci">İkinci Buton</a>
+        <a href="#" class="btn success">Başarılı Buton</a>
+        <a href="#" class="btn danger">Tehlikeli Buton</a>
+        <a href="#" class="btn warning">Dikkatli Buton</a>
+    </div>
+    <br><br>
+
+    <a href="#" class="btn birinci btn-xs">Birinci Buton</a>
+    <a href="#" class="btn ikinci btn-sm">İkinci Buton</a>
+    <a href="#" class="btn success btn-md">Başarılı Buton</a>
+    <a href="#" class="btn danger btn-lg">Tehlikeli Buton</a>
+    <a href="#" class="btn warning btn-bg">Dikkatli Buton</a>
+    <a href="#" class="btn btn-md radius"><img class="radius" width="120%"
+            src="https://i.pinimg.com/222x/6f/e6/f3/6fe6f350b886aceff464b3778b8c131a.jpg"></a>
+    <br>
+    <a href="#" class="btn birinci ">
+        <i class="fas fa-home"></i>
+    </a>
+
+    <a href="#" class="btn ikinci ">
+        <i class="fas fa-camera fa-lg"></i>
+    </a>
+</body>
+
+</html>

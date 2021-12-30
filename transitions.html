@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+</head>
+<style>
+    .card{
+        width: 150px;
+        height: 150px;
+        background-color: blue;
+        margin-top: 10px;
+        transition: 2s;
+    }
+    .card:hover{
+        width: 1000px;
+    }
+    #card1{
+        transition-timing-function: ease;
+    }
+    #card2{
+        transition-timing-function: linear;
+    }
+    #card3{
+        transition-timing-function: ease-in;
+    }
+    #card4{
+        transition-timing-function: ease-out;
+    }
+    #card5{
+        transition-timing-function: ease-in-out;
+    }
+</style>
+<body>
+    <div class="card" id="card1"></div>
+    <div class="card" id="card2"></div>
+    <div class="card" id="card3"></div>
+    <div class="card" id="card4"></div>
+    <div class="card" id="card5"></div>
+</body>
+</html>
